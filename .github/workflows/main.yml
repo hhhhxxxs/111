@@ -18,7 +18,7 @@ jobs:
           python-version: 3.9.1
       - name: Set timezone
         run: |
-          cp /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
+          cp /usr/share/zoneinfo/Asia/Zhengzhou /etc/localtime
       - name: install pip packages
         run: |
           python -m pip install --upgrade pip
